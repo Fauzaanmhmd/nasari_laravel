@@ -1,3 +1,6 @@
-[build]
-  command = "npm run build && ls -la"
-  publish = "/opt/build/repo"
+[build.environment]
+PHP_VERSION = "8.2"
+NODE_VERSION = "16"
+command = "npm run build && ls -la"
+publish = "dist"
+
