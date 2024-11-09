@@ -2109,7 +2109,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "8.0 - 8.4"
+                "php": "8.2 - 8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -2726,7 +2726,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": ">=8.2.0"
             },
             "type": "library",
             "extra": {
@@ -2776,7 +2776,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": ">=8.2.0"
             },
             "type": "library",
             "extra": {
