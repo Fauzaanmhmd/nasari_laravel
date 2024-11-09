@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
     <title>Login</title>
-    <!-- Menambahkan link ke Tailwind CSS -->
+    @vite(['resources/js/app.js', 'resources/css/app.css'])
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -16,6 +16,7 @@
 </script>
 
 <body class="bg-black h-screen flex justify-center items-center">
+<div id="app"></div>
 
 <video class="absolute top-0 left-0 w-full h-full object-cover z-[-1]" autoplay loop muted>
     <source src="{{ asset('assets/background_video_new.mp4') }}" type="video/mp4">
