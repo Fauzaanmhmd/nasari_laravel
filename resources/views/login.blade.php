@@ -17,7 +17,6 @@
 
 <body class="bg-black h-screen flex justify-center items-center">
 
-<!-- Background video -->
 <video class="absolute top-0 left-0 w-full h-full object-cover z-[-1]" autoplay loop muted>
     <source src="{{ asset('assets/background_video_new.mp4') }}" type="video/mp4">
     Your browser does not support the video tag.

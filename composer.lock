@@ -983,7 +983,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5 || ^8.0",
+                "php": "^7.2.5 || ^8.2",
                 "symfony/polyfill-php80": "^1.24"
             },
             "require-dev": {
