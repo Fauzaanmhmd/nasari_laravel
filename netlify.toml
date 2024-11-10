@@ -2,7 +2,7 @@
 PHP_VERSION = "8.2"
 
 [build]
-  command = "composer install && php artisan migrate --force && npm install"
+  command = "composer install && npm install"
   publish = "public"
 
 [[redirects]]
