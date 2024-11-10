@@ -1,10 +1,9 @@
 [build.environment]
 PHP_VERSION = "8.2"
 
-
 [build]
-command = "npm run build"
-publish = "build"
+  command = "composer install && php artisan migrate --force && npm install"
+  publish = "public"
 
 [[redirects]]
 from = "/app/*"
