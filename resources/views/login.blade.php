@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
     <title>Login</title>
-    @vite(['resources/js/app.js', 'resources/css/app.css'])
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
